@@ -1,3 +1,36 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
-</div>
+{% if site.data.publications %}
+  <ul class="publications">
+    {% for pub in site.data.publications %}
+      {% if pub.selected %}
+        <li>
+          <!-- Author line -->
+          <div class="pub-authors">{{ pub.author | raw }}</div>
+
+          <!-- Title line -->
+          <div class="pub-title"><em>{{ pub.title }}</em></div>
+
+          <!-- Journal / Booktitle line -->
+          {% if pub.journal %}
+            <div class="pub-venue">{{ pub.journal | raw }}</div>
+          {% endif %}
+          {% if pub.booktitle %}
+            <div class="pub-venue">{{ pub.booktitle | raw }}</div>
+          {% endif %}
+
+          <!-- Note / acceptance rate -->
+          {% if pub.note %}
+            <div class="pub-note">{{ pub.note | raw }}</div>
+          {% endif %}
+
+          <!-- Links line -->
+          <div class="pub-links">
+            {% if pub.url %}<a href="{{ pub.url }}" target="_blank">[link]</a>{% endif %}
+            {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank">[PDF]</a>{% endif %}
+            {% if pub.slides %}<a href="{{ pub.slides }}" target="_blank">[Slides]</a>{% endif %}
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
