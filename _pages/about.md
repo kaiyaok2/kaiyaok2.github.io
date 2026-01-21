@@ -6,7 +6,7 @@ subtitle: Ph.D. Student in Computer Science, UC Berkeley
 
 profile:
   align: right
-  image: /assets/img/pic.jpg
+  image: pic.jpg
   image_circular: false # crops the image to make it circular
   address: |
     465 Soda Hall  
