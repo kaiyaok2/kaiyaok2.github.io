@@ -1,0 +1,11 @@
+/* News section colors for dark mode */
+.news table,
+.news th,
+.news td,
+.news a.news-title {
+    color: inherit; /* inherit from body for light/dark mode */
+}
+
+body.dark .news a.news-title {
+    color: #ffffff; /* ensures links are visible in dark mode */
+}
