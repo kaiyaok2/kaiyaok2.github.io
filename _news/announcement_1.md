@@ -1,8 +1,6 @@
 ---
-layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-11-26
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Our new work [TRAM](https://www.arxiv.org/abs/2511.21878) has been arXived.

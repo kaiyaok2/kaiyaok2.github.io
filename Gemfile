@@ -23,6 +23,8 @@ group :jekyll_plugins do
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
+    gem 'i18n', '~> 1.13'
+    gem 'webrick', '~> 1.8'
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)

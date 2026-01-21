@@ -2,19 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student in Computer Science, UC Berkeley
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: |
+    465 Soda Hall  
+    University of California, Berkeley  
+    Berkeley, CA 94720  
+  contact: |
+    📧 <a href="mailto:kaiyaoke@berkeley.edu">kaiyaoke@berkeley.edu</a><br>
+    📞 <a href="tel:+12179795842">+1 (217) 979-5842</a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social:
+  - icon: fa fa-facebook
+    link: https://www.facebook.com/fionizedkky
+  - icon: ai ai-google-scholar
+    link: https://scholar.google.com/citations?user=PBBlcVUAAAAJ&hl=en
+  - icon: ai ai-cv
+    link: /assets/pdf/cv.pdf
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +31,20 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year **Ph.D. student in Computer Science** at the [University of California, Berkeley](https://eecs.berkeley.edu/), where I work with [Prof. Koushik Sen](https://people.eecs.berkeley.edu/~ksen/) as a member of the Berkeley [Sky Computing Lab](https://sky.cs.berkeley.edu/).
+My research interest lies in **AI for software engineering**, particularly in the integration of **large language models** for *automatic program repair* and *code translation*.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before joining Berkeley, I obtained my **M.S. in Computer Science** from the [University of Illinois Urbana-Champaign](https://cs.illinois.edu/), where I worked on **software testing** with [Prof. Darko Marinov](https://mir.cs.illinois.edu/marinov/), focusing on *flaky tests* and *test case prioritization*.  
+I also worked with [Prof. Reyhaneh Jabbarvand](https://reyhaneh.cs.illinois.edu/) on **neuro-symbolic models for software engineering**, particularly on *code translation*.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can view my [publications]({{ site.baseurl }}/publications/) page for more details about my research and academic work.
+
+Outside research, I’m interested in the intersection of programming languages and AI, and I enjoy exploring new tools that improve developer productivity and software reliability.
+
+📄 [Download my CV]({{ site.baseurl }}/assets/pdf/cv.pdf)
+

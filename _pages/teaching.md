@@ -1,12 +1,33 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### CS 357 — Numerical Methods  
+**Teaching Assistant**  
+*University of Illinois Urbana-Champaign* · *Urbana-Champaign, IL*  
+**August 2023 – May 2025**  
+Instructor: [Prof. Mariana Silva](https://mfsilva22.github.io/)  
+Course website: [CS 357](https://courses.grainger.illinois.edu/cs357/sp2025/)
 
-Organize your courses by years, topics, or universities, however you like!
+- Designed coding questions for bi-weekly quizzes and reflection questions for weekly group activities.
+- Reorganized and updated the CS 357 [textbook](https://cs357.cs.illinois.edu/textbook/) to better align with lecture materials and add worked examples.
+- Led weekly group activity sessions and held 5 hours/week of office hours.
+- Supported students through study halls and active participation on the online discussion forum.
+
+---
+
+### CS/ECE 374 A — Introduction to Algorithms & Models of Computation  
+**Course Assistant**  
+*University of Illinois Urbana-Champaign* · *Urbana-Champaign, IL*  
+**August 2021 – December 2021**  
+Instructor: [Prof. Jeff Erickson](https://jeffe.cs.illinois.edu/)  
+Course website: [CS 374](https://courses.engr.illinois.edu/cs374/fa2021/A/)
+
+- Held office hours to assist students with homework and lab-related questions.
+- Graded weekly written assignments.
+- Helped develop and maintain pre-lecture problems on [PrairieLearn](https://us.prairielearn.com/).
+
