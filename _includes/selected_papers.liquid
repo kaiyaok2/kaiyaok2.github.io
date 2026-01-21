@@ -6,10 +6,10 @@
           <!-- Author line -->
           <div class="pub-authors">{{ pub.author | raw }}</div>
 
-          <!-- Title line -->
-          <div class="pub-title"><em>{{ pub.title }}</em></div>
+          <!-- Title line (bold) -->
+          <div class="pub-title"><strong>{{ pub.title }}</strong></div>
 
-          <!-- Journal / Booktitle line -->
+          <!-- Journal / Booktitle line (normal, not bold) -->
           {% if pub.journal %}
             <div class="pub-venue">{{ pub.journal | raw }}</div>
           {% endif %}
