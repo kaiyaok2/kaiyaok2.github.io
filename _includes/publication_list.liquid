@@ -1,0 +1,37 @@
+{%- comment -%}
+Shared publication list used by the homepage ("selected publications") and the
+Publications page. Entries come from _data/publications.yml.
+{%- endcomment -%}
+{% if site.data.publications %}
+  <ol class="bibliography pub-list">
+    {% for pub in site.data.publications %}
+      {% if pub.selected %}
+        <li class="pub-item">
+          <div class="pub-badge-col">
+            {% if pub.venue %}<span class="pub-venue-badge">{{ pub.venue }}</span>{% endif %}
+          </div>
+          <div class="pub-body">
+            <div class="pub-title">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+            </div>
+            <div class="pub-authors">{{ pub.author }}</div>
+            {% if pub.journal %}<div class="pub-venue">{{ pub.journal }}</div>{% endif %}
+            {% if pub.booktitle %}<div class="pub-venue">In {{ pub.booktitle }}</div>{% endif %}
+            {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+            {% if pub.abstract %}
+              <details class="pub-abstract">
+                <summary>Abstract</summary>
+                <div class="pub-abstract-text">{{ pub.abstract }}</div>
+              </details>
+            {% endif %}
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
+              {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+              {% if pub.slides %}<a href="{{ pub.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+            </div>
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endif %}

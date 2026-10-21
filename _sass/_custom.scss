@@ -9,3 +9,154 @@
 body.dark .news a.news-title {
     color: #ffffff; /* ensures links are visible in dark mode */
 }
+
+/* ---------------------------------------------------------------------------
+   Publication list (homepage "selected publications" + /publications/)
+   --------------------------------------------------------------------------- */
+ol.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.pub-list .pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.pub-list .pub-item:first-child {
+  border-top: none;
+  padding-top: 0.5rem;
+}
+
+.pub-list .pub-badge-col {
+  flex: 0 0 6.5rem;
+  padding-top: 0.15rem;
+}
+
+.pub-list .pub-venue-badge {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color);
+}
+
+.pub-list .pub-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-list .pub-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+}
+
+.pub-list .pub-title a {
+  color: var(--global-text-color);
+}
+
+.pub-list .pub-title a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.pub-list .pub-authors {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
+}
+
+.pub-list .pub-authors u {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.pub-list .pub-venue {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+}
+
+.pub-list .pub-venue strong {
+  font-weight: 600;
+}
+
+.pub-list .pub-note {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.15rem;
+}
+
+.pub-list .pub-abstract {
+  margin-top: 0.45rem;
+  font-size: 0.85rem;
+}
+
+.pub-list .pub-abstract summary {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--global-theme-color);
+  width: fit-content;
+}
+
+.pub-list .pub-abstract summary::marker,
+.pub-list .pub-abstract summary::-webkit-details-marker {
+  color: var(--global-theme-color);
+}
+
+.pub-list .pub-abstract-text {
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  border-left: 3px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.pub-list .pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.pub-list .pub-links a {
+  color: var(--global-theme-color);
+}
+
+.pub-list .pub-links a::before { content: "["; }
+.pub-list .pub-links a::after { content: "]"; }
+
+.pub-list .pub-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 575.98px) {
+  .pub-list .pub-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  .pub-list .pub-badge-col {
+    flex-basis: auto;
+  }
+  .pub-list .pub-venue-badge {
+    width: auto;
+  }
+  .pub-list .pub-body {
+    width: 100%;
+  }
+}

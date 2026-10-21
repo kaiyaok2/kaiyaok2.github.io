@@ -1,4 +1,5 @@
 - title: "Preliminary Results on Evaluating Large Language Models for Labeling Root Cause Categories of Fixed Flaky Tests"
+  venue: "FTW '26"
   author: "Yang Chen, <u>Kaiyao Ke</u>, Darko Marinov"
   booktitle: "Proceedings of the 3rd International Flaky Tests Workshop <strong>(FTW 2026)</strong>"
   publisher: "ACM"
@@ -10,6 +11,7 @@
   selected: true
 
 - title: "MockingBird: Context-aware Repository-level Code Translation with Isolated Validation"
+  venue: "ICSE '27"
   author: "<u>Kaiyao Ke</u>, Ali Reza Ibrahimzada, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand"
   booktitle: "Proceedings of the IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE 2027)</strong>"
   publisher: "IEEE/ACM"
@@ -19,6 +21,7 @@
   selected: true
 
 - title: "NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent"
+  venue: "ICSE '25"
   author: "<u>Kaiyao Ke</u>"
   booktitle: "Proceedings of the IEEE/ACM 47th International Conference on Software Engineering <strong>(ICSE 2025)</strong>"
   publisher: "IEEE Press"
@@ -29,6 +32,7 @@
   selected: true
 
 - title: "AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation"
+  venue: "FSE '25"
   author: "Ali Reza Ibrahimzada, <u>Kaiyao Ke</u>, Mrigank Pawagi, Muhammad Salman Abid, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand"
   booktitle: "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering <strong>(FSE 2025)</strong>"
   publisher: "ACM"
@@ -39,6 +43,7 @@
   selected: true
 
 - title: "pytest-ranking: A Regression Test Prioritization Tool for Python"
+  venue: "FSE '25 Demo"
   author: "Runxiang Cheng, <u>Kaiyao Ke</u>, Darko Marinov"
   booktitle: "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering, Demo Track <strong>(FSE Demo 2025)</strong>"
   publisher: "ACM"
@@ -49,6 +54,7 @@
   selected: true
 
 - title: "Evaluating NonDex for Modern Java Ecosystem"
+  venue: "FTW '25"
   author: "<u>Kaiyao Ke</u>, Darko Marinov"
   booktitle: "Proceedings of the 2nd IEEE/ACM International Flaky Tests Workshop <strong>(FTW 2025)</strong>"
   publisher: "IEEE Computer Society"
