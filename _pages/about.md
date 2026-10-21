@@ -21,7 +21,7 @@ social:
   - icon: fa fa-facebook
     link: https://www.facebook.com/fionizedkky
   - icon: ai ai-google-scholar
-    link: https://scholar.google.com/citations?user=PBBlcVUAAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=PY-8Y04AAAAJ&hl=en
   - icon: ai ai-cv
     link: /assets/pdf/cv.pdf
 

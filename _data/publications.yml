@@ -1,3 +1,14 @@
+- title: "Preliminary Results on Evaluating Large Language Models for Labeling Root Cause Categories of Fixed Flaky Tests"
+  author: "Yang Chen, <u>Kaiyao Ke</u>, Darko Marinov"
+  booktitle: "Proceedings of the 3rd International Flaky Tests Workshop <strong>(FTW 2026)</strong>"
+  publisher: "ACM"
+  note: "Acceptance Rate: 60.00% (3\/5)"
+  url: "https://doi.org/10.1145/3786178.3788329"
+  pdf: "/assets/pdf/llm-flaky-labeling-paper.pdf"
+  slides: "/assets/pdf/llm-flaky-labeling-slides.pdf"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PY-8Y04AAAAJ&citation_for_view=PY-8Y04AAAAJ:zYLM7Y9cAGgC"
+  selected: true
+
 - title: "Advancing Automated In-Isolation Validation in Repository-Level Code Translation"
   author: "<u>Kaiyao Ke</u>, Ali Reza Ibrahimzada, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand"
   journal: "arXiv preprint arXiv:2511.21878"
@@ -12,8 +23,8 @@
   publisher: "IEEE Press"
   note: "Acceptance Rate: 21.30% (245\/1150)"
   url: "https://doi.org/10.1109/ICSE55347.2025.00226"
-  pdf: "assets/pdf/NIODebugger-pdf.pdf"
-  slides: "assets/pdf/NIODebugger-slides.pdf"
+  pdf: "/assets/pdf/NIODebugger-pdf.pdf"
+  slides: "/assets/pdf/NIODebugger-slides.pdf"
   selected: true
 
 - title: "AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation"
@@ -22,8 +33,8 @@
   publisher: "ACM"
   note: "Acceptance Rate: 22.06% (135\/612)"
   url: "https://doi.org/10.1145/3729379"
-  pdf: "assets/pdf/AlphaTrans.pdf"
-  slides: "assets/pdf/alphatrans_slides.pdf"
+  pdf: "/assets/pdf/AlphaTrans.pdf"
+  slides: "/assets/pdf/alphatrans_slides.pdf"
   selected: true
 
 - title: "pytest-ranking: A Regression Test Prioritization Tool for Python"
@@ -32,7 +43,7 @@
   publisher: "ACM"
   note: "Acceptance Rate: 64.06% (41\/64)"
   url: "https://doi.org/10.1145/3696630.3728587"
-  pdf: "assets/pdf/pytest-ranking.pdf"
+  pdf: "/assets/pdf/pytest-ranking.pdf"
   slides: "https://www.youtube.com/watch?v=SrnkgTs3uok"
   selected: true
 
@@ -41,6 +52,6 @@
   booktitle: "Proceedings of the 2nd IEEE/ACM International Flaky Tests Workshop <strong>(FTW 2025)</strong>"
   publisher: "IEEE Computer Society"
   url: "https://doi.ieeecomputersociety.org/10.1109/FTW66604.2025.00011"
-  pdf: "assets/pdf/evaluating-nondex-paper.pdf"
-  slides: "assets/pdf/evaluating-nondex.pdf"
+  pdf: "/assets/pdf/evaluating-nondex-paper.pdf"
+  slides: "/assets/pdf/evaluating-nondex.pdf"
   selected: true
