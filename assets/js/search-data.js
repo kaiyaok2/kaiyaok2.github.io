@@ -44,8 +44,8 @@ ninja.data = [{
           section: "News",},{id: "news-graduated-from-the-university-of-illinois-urbana-champaign-a-great-6-year-journey",
           title: 'Graduated from the University of Illinois Urbana-Champaign. A great 6-year journey!',
           description: "",
-          section: "News",},{id: "news-our-new-work-tram-has-been-arxived",
-          title: 'Our new work TRAM has been arXived.',
+          section: "News",},{id: "news-our-work-mockingbird-has-been-accepted-to-icse-27",
+          title: 'Our work MockingBird has been accepted to ICSE ‘27',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -118,7 +118,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=PBBlcVUAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=PY-8Y04AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
