@@ -5,7 +5,9 @@ Publications page. Entries come from _data/publications.yml.
 {% if site.data.publications %}
   <ol class="bibliography pub-list">
     {% for pub in site.data.publications %}
-      {% if pub.selected %}
+      {% assign show_pub = pub.selected %}
+      {% if include.featured_only == true %}{% assign show_pub = pub.featured %}{% endif %}
+      {% if show_pub %}
         <li class="pub-item">
           <div class="pub-badge-col">
             {% if pub.venue %}<span class="pub-venue-badge">{{ pub.venue }}</span>{% endif %}

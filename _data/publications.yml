@@ -1,3 +1,14 @@
+- title: "MockingBird: Context-aware Repository-level Code Translation with Isolated Validation"
+  venue: "ICSE '27"
+  author: "<u>Kaiyao Ke</u>, Ali Reza Ibrahimzada, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand"
+  booktitle: "Proceedings of the IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE 2027)</strong>"
+  publisher: "IEEE/ACM"
+  abstract: "Despite advances in repository-level code translation, automated type resolution across differing type systems and translation validation (functional-equivalence checking) remain challenging. This paper proposes MockingBird, combining context-aware type resolution with mock-based isolated validation. MockingBird retrieves API documentation and contextual code information per source-language type, prompting an LLM to resolve precise cross-language type mappings, reducing the manual effort of existing approaches. Using this automatically constructed type map, MockingBird employs custom serialization/deserialization to generate equivalent target-language mock objects, validating each translation unit in isolation without test translation, eliminating test-overfitting risks and translation challenges. On 10 Java-to-Python tasks from the AlphaTrans benchmark, MockingBird improves functional equivalence from the state-of-the-art 25.14% to 43.10%, with no manual type-mapping correction needed. A 700-fragment study shows MockingBird achieves 0 false positives and 0.9% false negatives, substantially outperforming GraalVM (2.4% false positives, 7.6% false negatives) and MatchFixAgent (11.0% combined mislabel rate). The pipeline is also LLM-agnostic, maintaining these gains with both DeepSeekCoder-33B and the smaller Devstral-24B."
+  url: "https://arxiv.org/abs/2511.21878"
+  pdf: "https://arxiv.org/pdf/2511.21878"
+  selected: true
+  featured: true
+
 - title: "Preliminary Results on Evaluating Large Language Models for Labeling Root Cause Categories of Fixed Flaky Tests"
   venue: "FTW '26"
   author: "Yang Chen, <u>Kaiyao Ke</u>, Darko Marinov"
@@ -10,16 +21,6 @@
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PY-8Y04AAAAJ&citation_for_view=PY-8Y04AAAAJ:zYLM7Y9cAGgC"
   selected: true
 
-- title: "MockingBird: Context-aware Repository-level Code Translation with Isolated Validation"
-  venue: "ICSE '27"
-  author: "<u>Kaiyao Ke</u>, Ali Reza Ibrahimzada, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand"
-  booktitle: "Proceedings of the IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE 2027)</strong>"
-  publisher: "IEEE/ACM"
-  abstract: "Despite advances in repository-level code translation, automated type resolution across differing type systems and translation validation (functional-equivalence checking) remain challenging. This paper proposes MockingBird, combining context-aware type resolution with mock-based isolated validation. MockingBird retrieves API documentation and contextual code information per source-language type, prompting an LLM to resolve precise cross-language type mappings, reducing the manual effort of existing approaches. Using this automatically constructed type map, MockingBird employs custom serialization/deserialization to generate equivalent target-language mock objects, validating each translation unit in isolation without test translation, eliminating test-overfitting risks and translation challenges. On 10 Java-to-Python tasks from the AlphaTrans benchmark, MockingBird improves functional equivalence from the state-of-the-art 25.14% to 43.10%, with no manual type-mapping correction needed. A 700-fragment study shows MockingBird achieves 0 false positives and 0.9% false negatives, substantially outperforming GraalVM (2.4% false positives, 7.6% false negatives) and MatchFixAgent (11.0% combined mislabel rate). The pipeline is also LLM-agnostic, maintaining these gains with both DeepSeekCoder-33B and the smaller Devstral-24B."
-  url: "https://arxiv.org/abs/2511.21878"
-  pdf: "https://arxiv.org/pdf/2511.21878"
-  selected: true
-
 - title: "NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent"
   venue: "ICSE '25"
   author: "<u>Kaiyao Ke</u>"
@@ -30,6 +31,7 @@
   pdf: "/assets/pdf/NIODebugger-pdf.pdf"
   slides: "/assets/pdf/NIODebugger-slides.pdf"
   selected: true
+  featured: true
 
 - title: "AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation"
   venue: "FSE '25"
@@ -41,6 +43,7 @@
   pdf: "/assets/pdf/AlphaTrans.pdf"
   slides: "/assets/pdf/alphatrans_slides.pdf"
   selected: true
+  featured: true
 
 - title: "pytest-ranking: A Regression Test Prioritization Tool for Python"
   venue: "FSE '25 Demo"
